@@ -1,0 +1,31 @@
+﻿<html>
+<head>
+    <title>CoverDiff</title>
+    
+<style type="text/css">
+pre { margin: 0; padding: 0; }
+
+h1, .coverage_file { width: 960px; margin: 0 auto; }
+
+.coverage_file { clear: both; }
+
+.coverage_file .line_numbers { float: left; width: 3em; border-right: solid 1px black; }
+    .coverage_file .line_numbers span { display: block; text-align: right; padding-right: 0.5em; }
+
+.coverage_file .code { float: left; }
+.coverage_file .code, .coverage_file .line_numbers { line-height: 18px; }
+    .coverage_file .code span, .coverage_file .line_numbers span { clear: both; float: right; height: 18px; padding-left: 0.5em; }
+    .coverage_file .line_numbers span{ float: right; }
+    .coverage_file .code span { float: left; }
+
+span.covered { background-color: #acffac; }
+span.uncovered { background-color: #ffacac; }
+
+</style>
+</head>
+<body>
+    <h1>#MESSAGE#</h1>
+
+    $CLASSES$    
+</body>
+</html>

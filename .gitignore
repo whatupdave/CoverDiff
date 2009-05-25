@@ -1,0 +1,5 @@
+*.user
+*.suo
+_ReSharper.CoverDiff
+CoverDiff/bin
+CoverDiff/obj
